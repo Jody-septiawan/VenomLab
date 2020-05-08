@@ -1,0 +1,110 @@
+/* Navbar */
+body{
+	background-image: url('images/bg.jpg');
+	background-color: black;
+}
+
+/*DESKTOP VERSION*/
+	@media (min-width: 992px){
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 20px;
+		color: #FFFFFF !important;
+		}
+
+		.nav-link:hover{
+			border-bottom: 3px solid white;
+ 		}
+	}
+
+
+/*Jumbotron*/
+	.jumbotron {
+		background-image: url(images/cover.jpg);
+		background-size: cover;
+		height: 400px;
+	}
+
+	.jumbotron .display-4{
+		color: white;
+		text-align: left;
+		margin-top: 15px ;
+		font-size: large;
+		margin-left: 800px;
+	}
+	
+	.jumbotron .tombol{
+		margin-left: 50px;
+	}
+	/* akhir Jumbotron */
+
+
+	/* carousel */
+	.carousel-item{
+		height: 400px;
+	}
+	.carousel-item .display-4{
+		color: white;
+		text-align: left;
+		margin-top: -270px ;
+		font-size: large;
+		margin-left: 700px;
+	}
+	.carousel-item .tombol{
+		float: right;
+		margin-right: 25px;
+	}
+	/* akhir carousel */
+
+
+	/* SERIVE */
+	.design-service{
+		margin: 100px 0;
+	}
+	.img-service{
+		width: 150px;
+		height: 150px;
+		/* height: 150px; */
+		/* border: 1px solid white;
+		border-radius: 50%; */
+		background-color: #fff;
+    	padding: 1px;
+	}
+
+	.ket-service{
+		height: 60px;
+		font-size: 14px;
+	}
+
+	/* PROJECT */
+	.featured-project{
+		margin: 100px 0;
+	}
+
+	/* CLIENT */
+	.client{
+		background-image: url('images/clientsaysbg.jpg');
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.img-client{
+		width: 100px;
+		height: 100px;
+	}
+
+	/* FOOTER */
+	.footer{
+		background-color: rgb(53, 53, 53);
+		color: rgb(184, 184, 184);
+		font-size: 13px;
+	}
+
+	i.fa {
+		border-radius: 50%;
+		background-color: rgb(138, 138, 138);
+		padding: 0.5em 0.5em;
+	  
+	  }
